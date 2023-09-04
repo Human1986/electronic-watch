@@ -11,7 +11,6 @@ public class ElectronicWatch {
         int minute = H % 60;
         int sec = seconds % 60;
         H = H / 60;
-
         H = H == 24 ? 0 : H;
 
         System.out.printf("%d:%02d:%02d", H, minute, sec);
